@@ -1,0 +1,100 @@
+
+footer {
+    background: #000;
+   font-weight:0;
+  }
+  
+.containercp4 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;
+    margin:auto;
+  }
+  
+  footer section {
+    padding-top: 60px;
+  }
+  
+  footer h3 {
+    color: gray;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+   
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 2;
+  }
+  
+  footer a:hover {
+    font-weight: bold;
+  }
+  
+  footer a img:hover {
+    transform: scale(1.1);
+  }
+  
+  footer nav {
+    min-width: 18ch;
+  }
+  hr{height:1px;
+  color:white;
+  background-color: #000;  
+  }
+  .m0{
+    margin:0;
+    padding:0;
+  }.cp5con{
+    background: #000;
+    color:white;
+  }.flexcp5{
+    max-width: 85%;
+    margin:auto;
+  }ul{
+    list-style-type: none;
+    line-height: 2;
+  }.cp5con p{
+color:gray;margin:0;
+margin-left:35px;
+padding:0;
+padding-top:20px;
+  }.flexc5{
+    display: flex;
+    justify-content: space-between;
+  }
+  hr{
+    margin:0;
+    padding:0;
+    border-color:grey;
+    max-width:85%;
+    margin:auto;
+  }.lcp{
+    background-color:#000;
+    color:white;
+  }.lcimage{padding-left:30px;
+    height:40px;
+    width:120px;
+    
+  }.padding{
+   padding-top:18px;
+   padding-bottom: 10px;;
+  }
+  .ilogo{
+    display:inline;
+    width:30px;
+    padding:10px;
+    height: 30px;
+  }
+  @media(max-width: 800px) {
+    .containercp4{
+      flex-wrap: wrap;
+    }
+    .flexc5{
+      flex-wrap: wrap;
+    }
+   }

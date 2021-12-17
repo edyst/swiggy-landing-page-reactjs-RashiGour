@@ -1,0 +1,428 @@
+.herosection {
+  min-height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("../components/images/a1.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 43% 600px;
+}
+.hero-subsec {
+  padding-left: 10.5vw;
+  max-width: 80%;
+}
+
+.nav-details {
+  margin-left: 77px;
+  width: 100%;
+}
+
+.part1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0px;
+  padding: 0px;
+  height: max-content;
+}
+
+#swg {
+  height: 60px;
+  margin-right: 140px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -25px;
+  width: 100%;
+}
+
+#b1 {
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: black;
+  background-color: transparent;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+#b1:hover {
+  color: blue;
+}
+
+#b2 {
+  background-color: black;
+  color: white;
+  padding: 12px 27px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: none;
+  margin-right: 1px;
+  cursor: pointer;
+}
+
+.but-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+#t1-head {
+  font-family: "Montserrat", sans-serif;
+  font-size: 38px;
+  font-weight: 900;
+  line-height: 17px;
+  color: #282c3f;
+  margin-top: 77px;
+}
+
+#t1-detail {
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-top: 18px;
+  color: #686b78;
+}
+
+.heading-hsec2{
+  font-size:40px;
+  margin-bottom: 0px;
+}
+.animation-heading::after{
+content: 'Hungry?';
+animation: yourAnimation 20.4s ease infinite normal none;
+  position:relative;
+}
+@keyframes yourAnimation{
+0%     {content: "Hungry?"; opacity: 0; bottom: -30px;}
+  4.15%  {content: "Hungry?"; opacity: 1; bottom:0px;}
+  15.77% {content: "Hungry?"; opacity: 1; bottom:0px;}
+  16.65% {content: "Hungry?"; opacity: 0; bottom:20px; }
+16.66% {content: "Unexpected guests?"; opacity:0; bottom:-30px}
+  20.81% {content: "Unexpected guests?"; opacity:1; bottom:0px  }
+  32.43% {content: "Unexpected guests?"; opacity:1; bottom:0px  }
+  33.32% {content: "Unexpected guests?"; opacity:0; bottom:20px }
+33.33% {content: "Movie marathon?"; opacity:0; bottom:-30px}
+  37.48% {content: "Movie marathon?"; opacity:1; bottom:0px  }
+  49.1%  {content: "Movie marathon?"; opacity:1; bottom:0px  }
+  49.97% {content: "Movie marathon?"; opacity:0; bottom:20px }
+49.98% {content: "Game night?"; opacity:0; bottom:-30px}
+  54.13% {content: "Game night?"; opacity:1; bottom:0px  }
+  65.75% {content: "Game night?"; opacity:1; bottom:0px  }
+  66.63% {content: "Game night?"; opacity:0; bottom:20px }
+66.64% {content: "Cooking gone Wrong?"; opacity:0; bottom:-30px}
+  70.79% {content: "Cooking gone Wrong?"; opacity:1; bottom:0px  }
+  82.41% {content: "Cooking gone Wrong?"; opacity:1; bottom:0px  }
+  83.29% {content: "Cooking gone Wrong?"; opacity:0; bottom:20px }
+  83.30% {content: "Late night at office?"; opacity:0; bottom:-30px}
+  87.45% {content: "Late night at office?"; opacity:1; bottom:0px  }
+  99.07% {content: "Late night at office?"; opacity:1; bottom:0px  }
+  99.99% {content: "Late night at office?"; opacity:0; bottom:20px }
+}
+
+.search-main {
+  display: flex;
+  align-items: baseline;
+}
+.search {
+  margin-top: 46px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #8c91a5;
+  height: 58px;
+  width: 480px;
+}
+input[type="text"] {
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  width: 229px;
+}
+.search-1 {
+  padding: 10px 80px 10px 22px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #282c3f;
+  opacity: 0.8;
+}
+
+.searchtxt {
+  display: flex;
+  opacity: 0.8;
+  padding: 12px 20px;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-left: 35px;
+}
+
+.searchtxt:hover {
+  background-color: #beccbe;
+}
+
+.searchtxt1 {
+  display: flex;
+  align-items: center;
+}
+
+#lc-png {
+  margin-top: 0px;
+  margin-right: 10px;
+  width: 16px;
+  opacity: 0.8;
+}
+
+#lc-txt {
+  margin-bottom: 8px;
+  margin-right: 2px;
+  height: 25px;
+  width: 67px;
+  font-weight: 600;
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+}
+
+#src-but {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  padding: 20px 24px;
+  margin: 0px;
+  background-color: #fc8019;
+  color: white;
+  border: none;
+  font-weight: 1000;
+  cursor: pointer;
+}
+
+.sub-info {
+  font-size: 14px;
+  line-height: 18px;
+  color: #a9abb2;
+  font-weight: 500;
+  margin-top: 35px;
+}
+
+#city {
+  display: inline;
+  font-size: 14px;
+  line-height: 1px;
+  color: #686b78;
+  font-weight: 600;
+  margin-top: 22px;
+  width: 590px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#city-light {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1px;
+  color: #686b78;
+  font-weight: 600;
+  margin-top: 22px;
+  display: inline-block;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.cities-name {
+  width: 590px;
+  cursor: pointer;
+  line-height: 1px;
+}
+
+/* MediaQuery */
+@media only screen and (max-width: 1300px) {
+  .herosection {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.6),
+        rgba(255, 255, 255, 0.7)
+      ),
+      url("../components/images/a1.png");
+    background-size: 660px 600px;
+    text-shadow: 0px 0px 1px #fff;
+  }
+  .hero-subsec {
+    padding-left: 20px;
+    max-width: 630px;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .search-1::placeholder {
+    opacity: 0;
+  }
+
+  .heading-hsec2 {
+    font-size: 30px;
+  }
+  .search {
+    width: 187px;
+  }
+  input[type="text"] {
+    border: none;
+    font-weight: 600;
+    font-size: 13px;
+    width: 0px;
+  }
+  .but-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+    margin-right: 100px;
+    width: 130px;
+    }
+  #b1 {
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+    background-color: transparent;
+    margin-right: 7px;
+    cursor: pointer;
+  }
+
+  #b2 {
+    background-color: black;
+    color: white;
+    padding: 5px 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    margin-right: -77px;
+    cursor: pointer;
+}
+
+  .cities-name {
+    width: 270px;
+    cursor: pointer;
+    line-height: 1px;
+  }
+
+  #swg {
+    height: 27px;
+    margin-right: 140px;
+    width: 72px;
+  }
+  .searchtxt {
+    display: flex;
+    opacity: 0.8;
+    padding: 12px 59px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-left: -67px;
+  }
+  #lc-png {
+    margin-top: 0px;
+    margin-right: 10px;
+    width: 16px;
+    opacity: 0;
+  }
+  #t1-detail {
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 18px;
+    color: #686b78;
+    width: 235px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .search-1::placeholder {
+    opacity: 0;
+  }
+
+  .heading-hsec2 {
+    font-size: 30px;
+  }
+  .search {
+    width: 312px;
+  }
+  input[type="text"] {
+    border: none;
+    font-weight: 600;
+    font-size: 13px;
+    width: 91px;
+  }
+  .but-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+    margin-right: 100px;
+    width: 257px;
+  }
+  #b1 {
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+    background-color: transparent;
+    margin-right: 7px;
+    cursor: pointer;
+  }
+  #b2 {
+    background-color: black;
+    color: white;
+    padding: 5px 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    margin-right: 28px;
+    cursor: pointer;
+  }
+
+  .cities-name {
+    width: 270px;
+    cursor: pointer;
+    line-height: 1px;
+  }
+
+  #swg {
+    height: 27px;
+    margin-right: 140px;
+    width: 72px;
+  }
+  .searchtxt {
+    display: flex;
+    opacity: 0.8;
+    padding: 12px 59px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-left: -45px;
+  }
+  #lc-png {
+    margin-top: 0px;
+    margin-right: 10px;
+    width: 16px;
+    opacity: 0.7;
+  }
+  #t1-detail {
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 18px;
+    color: #686b78;
+    width: 235px;
+  }
+}

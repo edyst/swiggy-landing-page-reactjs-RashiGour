@@ -1,0 +1,43 @@
+.part-6{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 80px;
+    color: white;
+    align-items: center;
+    padding-left: 118px;
+    padding-right: 94px;
+}
+
+.swg-png{
+    width: 145px;
+}
+
+.foot-copy{
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.foot-social-logo{
+    width: 26px;
+    margin-right: 20px;
+}
+
+
+.foot-social{
+    display: flex;
+    align-items: center;
+}
+
+.foot-social img:hover{
+    transform: scale(1.2);
+    transition: 0.25s;
+}
+
+@media only screen and (max-width: 500px){
+    .part-6{
+        padding-left:64px;
+    }
+}
+
